@@ -1,7 +1,7 @@
 package com.onePieceOfCode.paulAndMark.day9_exceptions.customizeException;
 
 public class MainCustomizeException {
-    public static void main(String[] args) throws InvalidRaiseException {
+    public static void main(String[] args) {
         EmployeeException  emp = new EmployeeException("Mark", 50000.75);
 
 
