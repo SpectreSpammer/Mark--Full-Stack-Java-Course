@@ -1,8 +1,19 @@
 package com.onePieceOfCode.paulAndMark.day10_collections_framework.hashSets;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashSet;
+
 public class MainHashSets {
     public static void main(String[] args) {
         EmployeeServiceImplHashSets empHashSets = new EmployeeServiceImplHashSets();
+        ArrayList<Object> arrayList = new ArrayList<>();
+        arrayList.add("Nan");
+        arrayList.add(1);
+
+        HashSet<Object> hashSet = new HashSet<>();
+        hashSet.add(true);
+
 
         EmployeeHashSets emp1 = new EmployeeHashSets(101,"Mark","IT");//101
         EmployeeHashSets emp2 = new EmployeeHashSets(102,"Nan" ,"Sales");//102
